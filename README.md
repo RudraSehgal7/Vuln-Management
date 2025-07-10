@@ -1,6 +1,6 @@
 # Vuln-Management
 
-Added vulnerabilitymanagementkj
+Added vulnerabilitymanagement
 
 This guide contains the answer and steps necessary to get to them for the [Vulnerability Management](https://tryhackme.com/room/vulnerabilitymanagementkj) room.
 
