@@ -13,6 +13,7 @@ This guide contains the answer and steps necessary to get to them for the [Vulne
 - [Vulnerability Management Life Cycle - Remediate & Verify](#vulnerability-management-life-cycle---remediate-&-verify)
 - [Vulnerability Management Framework](#vulnerability-management-framework)
 
+TASK -2
 ### Vulnerability Management vs Vulnerability Scanning
 
 1. The process encompassing vulnerability scanning and other factors, such as risk acceptance, is called?
@@ -27,19 +28,17 @@ This guide contains the answer and steps necessary to get to them for the [Vulne
 
    ><details><summary>Click for answer</summary>nay</details>
 
+TASK-3
 ### Vulnerability Classification
 
 1. What is the CVSS for CVE-2013-1048?
 
    We must search for this vulnerability on the NVD website.
 
-last year
-
 Added images
    ![Classification](https://github.com/Kevinovitz/TryHackMe_Writeups/raw/main/vulnerabilitymanagementkj/Vulnerability_Management_Classification.png)
-last year
 
-Added vulnerabilitymanagementkj
+
 
    ><details><summary>Click for answer</summary>4.6</details>
 
@@ -55,31 +54,29 @@ Added vulnerabilitymanagementkj
 
    ><details><summary>Click for answer</summary>2023</details>
 
+TASK-4
 ### Vulnerability Management Life Cycle - Discover & Prioritise
 
 1. We have already scanned an Ubuntu machine; therefore, answer the following questions based on the scan report of LinuxAppTasktask.
 
    After navigating to http://10.10.31.63:9392/, we must select 'Scans' and then the correct task from the list.
 
-last year
+
 
 Added images
    ![Discover](https://github.com/Kevinovitz/TryHackMe_Writeups/raw/main/vulnerabilitymanagementkj/Vulnerability_Management_Discover.png)
-last year
 
-Added vulnerabilitymanagementkj
+
+A
 
 2. After scanning, what is the total number of medium-level vulnerabilities?
 
    Under the tab 'Results' we can see all the vulnerabilties.
 
-last year
 
 Added images
    ![Discover Results](https://github.com/Kevinovitz/TryHackMe_Writeups/raw/main/vulnerabilitymanagementkj/Vulnerability_Management_Discover_Results.png)
-last year
 
-Added vulnerabilitymanagementkj
 
    ><details><summary>Click for answer</summary>1</details>
 
@@ -93,29 +90,23 @@ Added vulnerabilitymanagementkj
 
    This can be found under the 'Operating Systems' tab.
 
-last year
 
 Added images
    ![Discover Os](https://github.com/Kevinovitz/TryHackMe_Writeups/raw/main/vulnerabilitymanagementkj/Vulnerability_Management_Discover_Os.png)
-last year
-
-Added vulnerabilitymanagementkj
 
    ><details><summary>Click for answer</summary>Ubuntu 20.04</details>
 
+TASK-5
 ### Vulnerability Management Life Cycle - Assess & Report
 
 1. Download theLinuxAppTask report in PDF format. What is the severity rating of the vulnerability in the report, where the solution type is "Workaround"?
 
    The following three question can be answered from the Reports - Results tab.
 
-last year
-
 Added images
    ![Assess](https://github.com/Kevinovitz/TryHackMe_Writeups/raw/main/vulnerabilitymanagementkj/Vulnerability_Management_Assess.png)
 last year
 
-Added vulnerabilitymanagementkj
 
    This one is under `Cleartext Transmission of Sensitive Information via HTTP`.
 
@@ -133,27 +124,23 @@ Added vulnerabilitymanagementkj
 
    ><details><summary>Click for answer</summary>CVE-1999-0524</details>
 
+TASK-6
 ### Vulnerability Management Life Cycle - Remediate & Verify
 
 1. Create a ticket for resolving the "Cleartext Transmission of Sensitive Information viaHTTP" vulnerability.
 
    This can be done by expanding the item and clicking the + sign. Now click the 'create ticket' button.
 
-last year
-
 Added images
    ![Report](https://github.com/Kevinovitz/TryHackMe_Writeups/raw/main/vulnerabilitymanagementkj/Vulnerability_Management_Report.png)
-last year
 
-Added vulnerabilitymanagementkj
 
-last year
 
 Added images
    ![Report Ticket](https://github.com/Kevinovitz/TryHackMe_Writeups/raw/main/vulnerabilitymanagementkj/Vulnerability_Management_Report_Ticket.png)
-last year
 
-Added vulnerabilitymanagementkj
+
+
 
 2. As a Security Engineer, the priority of a remediation ticket for a critical vulnerability must be (high/medium/low)?
 
@@ -161,6 +148,7 @@ Added vulnerabilitymanagementkj
 
    ><details><summary>Click for answer</summary>high</details>
 
+TASK-7
 ### Vulnerability Management Framework
 
 1. The process of listing vulnerabilities as per their order of priority is called?
